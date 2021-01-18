@@ -4,33 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea{
-            display: block;
-            width: 90%;
-            height: 15vh;
-            padding: 1rem;
-            border: 1px solid black;
-        }
-        #output{
-            display: block;
-            width: 90%;
-            height: 15vh;
-            padding: 1rem;
-            border: 1px solid black;
-        }
-        
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>banana Talks</h1>
+    <nav  class="heading"> <h1 class="head-name">banana Talks</h1></nav>
+    <br>
     <textarea id="txt-inpt"
     placeholder="Enter the sentence that you wish to translate into minions."></textarea>
     <br>
     <button id="btn-trans">translate</button>
-    <div>output will appear here</div>
+    <br>
+    <div class="description">output will appear here</div>
     <br>
     <div id="output"></div>
+    <br>
+    <footer class="footer">
+        About.
+        <p class="para">Minions are small, yellow creatures who have existed in the beginning of time, evolving from yellow single-celled organisms into beings which exist only to serve history's most evil masters.</p>
+        <p class="paraa">Developed by <strong>@iamsadhik</strong></p>
+    </footer>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
